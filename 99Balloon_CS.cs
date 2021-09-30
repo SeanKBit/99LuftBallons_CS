@@ -17,6 +17,17 @@ namespace NinetyNineLuftBalloons
             intY = rand.Next(0, 33);
         }
 
+        public int IntX
+        {
+            get { return intX; }
+        }
+        
+        public int IntY
+        {
+            get { return intY; }
+        }
+
+
         public void show()
         {
             Console.SetCursorPosition(intX, intY);
